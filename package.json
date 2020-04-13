@@ -1,0 +1,26 @@
+{
+  "name": "chessmate",
+  "version": "0.0.1",
+  "description": "a webcomponent that can play chess with you based on stockfish engine port to JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franktopel/chessmate.git"
+  },
+  "keywords": [
+    "schach",
+    "chess",
+    "webcomponent",
+    "custom-element",
+    "game"
+  ],
+  "author": "Ftrank Topel <info@connexo.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/franktopel/chessmate/issues"
+  },
+  "homepage": "https://github.com/franktopel/chessmate#readme"
+}
