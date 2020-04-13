@@ -4,6 +4,8 @@
   "description": "a webcomponent that can play chess with you based on stockfish engine port to JS",
   "main": "index.js",
   "scripts": {
+    "build": "webpack -p src/js/index.js",
+    "start:dev": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +24,14 @@
   "bugs": {
     "url": "https://github.com/franktopel/chessmate/issues"
   },
-  "homepage": "https://github.com/franktopel/chessmate#readme"
+  "homepage": "https://github.com/franktopel/chessmate#readme",
+  "dependencies": {
+    "chess.js": "^0.10.3",
+    "chessboard-element": "^1.0.0-pre.10"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0-beta.13",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
 }
