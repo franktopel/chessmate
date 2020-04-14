@@ -27,7 +27,8 @@
   "homepage": "https://github.com/franktopel/chessmate#readme",
   "dependencies": {
     "chess.js": "^0.10.3",
-    "chessboard-element": "^1.0.0-pre.10"
+    "chessboard-element": "^1.0.0-pre.10",
+    "stockfish": "^10.0.2"
   },
   "devDependencies": {
     "webpack": "^5.0.0-beta.13",
