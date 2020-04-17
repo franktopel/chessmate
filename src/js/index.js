@@ -1,7 +1,7 @@
-import './components/chess-mate/chess-mate';
+import './components/chess-mate/chess-mate'
 
-const chessmate = document.createElement('chess-mate');
-document.body.appendChild(chessmate);
-chessmate.setAttribute('height', '400');
-chessmate.setAttribute('width', '400');
-console.log(chessmate.attributes);
+const chessmate = document.createElement('chess-mate')
+chessmate.setAttribute('height', '400')
+chessmate.setAttribute('width', '400')
+document.body.appendChild(chessmate)
+console.log(chessmate.attributes)
