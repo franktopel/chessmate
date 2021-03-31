@@ -31,6 +31,8 @@
     "stockfish": "^10.0.2"
   },
   "devDependencies": {
+    "html-webpack-plugin": "^4.2.0",
+    "raw-loader": "^4.0.1",
     "webpack": "^5.0.0-beta.13",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
