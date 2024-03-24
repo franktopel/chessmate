@@ -35,6 +35,6 @@
     "raw-loader": "^4.0.1",
     "webpack": "^5.0.0-beta.13",
     "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
+    "webpack-dev-server": "^5.0.4"
   }
 }
